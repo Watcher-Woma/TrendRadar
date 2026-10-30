@@ -143,27 +143,27 @@ rss:
 
     - id: "aihot-jxzy"
       name: "aihot-精选摘要"
-      url: "https://aihot.news/feed.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed.xml"
 
     - id: "aihot-jxqw"
       name: "aihot-精选全文"
-      url: https://aihot.news/feed/full.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed/full.xml"
 
     - id: "aihot-qjdt"
       name: "aihot-全部动态"
-      url: "https://aihot.news/feed/all.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed/all.xml"
 
     - id: "aihot-airb"
       name: "aihot-AI 日报"
-      url: "https://aihot.news/feed/daily.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed/daily.xml"
 
     - id: "aihot-aizb"
       name: "aihot-AI 周报"
-      url: "https://aihot.news/feed/weekly.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed/weekly.xml"
 
     - id: "aihot-aiyb"
       name: "aihot-AI 月报"
-      url: "https://aihot.news/feed/monthly.xml?aihot_actor=ee208af0-8747-420a-8def-6d9447527999"
+      url: "https://aihot.news/feed/monthly.xml"
 
     - id: "thedecisionlab"
       name: "The Decision Lab  决策实验室"
