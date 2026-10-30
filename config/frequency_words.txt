@@ -182,7 +182,8 @@
 
 /腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
 
-/qwen|minimax|glm/ => 国产开源模型
+# 扩充模型实验室名称；保留原有主题分类
+/\bQwen\b|通义千问|\bMiniMax\b|稀宇科技|\bGLM\b|智谱|\bKimi\b|月之暗面|\bYi\b|零一万物/ => 国产开源模型
 
 /特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
 
@@ -256,3 +257,38 @@
 
 # 产业政策
 生产力
+
+# ═══════════════════════════════════════════════════════════════
+#                    个人关注领域补充（MyInfoRadar）
+# ═══════════════════════════════════════════════════════════════
+# 以下新增词组不改变前面的原有新闻范围。
+# 使用行业术语与具体工具名，降低仅依赖“AI”等泛词造成的漏报。
+# 词组之间保留空行，英文工具名尽量使用单词边界。
+
+[大模型发布与评测]
+/大语言模型|多模态大模型|开源权重|模型权重|模型发布|模型评测|推理模型|基础模型|模型基准测试|长上下文|混合专家|视觉语言模型|世界模型/
+/\bLLM\b|\bVLM\b|\bMoE\b|\bMMLU\b|\bSWE-bench\b|\bHLE\b/
+
+[本地大模型部署]
+/本地部署|本地推理|离线推理|私有化部署|端侧推理|模型量化|显存优化|推理加速|推理吞吐|单卡部署|消费级显卡部署/
+/\bOllama\b|\bllama\.cpp\b|\bvLLM\b|\bSGLang\b|\bGGUF\b|\bAWQ\b|\bGPTQ\b|\bMLX\b|\bLM Studio\b|\bOpen WebUI\b|\bTensorRT-LLM\b/
+
+[AI Coding与Agent]
+/智能体|多智能体|智能体编排|工具调用|代码智能体|编程智能体|AI编程|AI编码|自动化开发|浏览器自动化|上下文工程/
+/\bCodex\b|\bClaude Code\b|\bCursor\b|\bOpenClaw\b|\bOpenHands\b|\bLangGraph\b|\bCrewAI\b|\bAutoGen\b|\bMCP\b|\bDify\b/
+
+[医学影像与肺结核AI]
+/医学影像|胸部X线|胸部X光|胸片|肺结核筛查|肺结核检测|医学基础模型|影像基础模型|胸部影像|多中心医学影像/
+/\bCXR\b|\bTB\b|\bRAD-DINO\b|\bCheXpert\b|\bChestX-ray14\b|\bVinDr-CXR\b|\bShenzhen TB\b/
+
+[跨域泛化与模型评估]
+/领域偏移|域偏移|领域自适应|领域泛化|跨域泛化|外部验证|跨中心验证|分布外检测|数据集偏移|标签偏移|类别不均衡|负迁移|模型鲁棒性/
+/\bdomain shift\b|\bdomain adaptation\b|\bdomain generalization\b|\bdataset shift\b|\blabel shift\b|\bexternal validation\b|\bDANN\b|\bGRL\b|\bOOD\b/
+
+[科研自动化与开源工具]
+/科研自动化|文献检索|论文复现|自动实验|自动化实验|学术智能体|研究智能体|科研Agent|开源框架|开源项目|技术报告/
+/\barXiv\b|\bHugging Face\b|\bGitHub Trending\b|\bPaper with Code\b|\bMLflow\b|\bWeights & Biases\b/
+
+[资讯聚合与采集]
+/资讯聚合|信息聚合|新闻聚合|智能简报|RSS订阅|网页采集|社交媒体采集|数据采集框架/
+/\bTrendRadar\b|\bRSSHub\b|\bMediaCrawler\b|\bFreshRSS\b/
